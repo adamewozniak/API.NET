@@ -8,9 +8,9 @@ using System.Web.Http;
 namespace WozWebAPI.Controllers
 {
     /// <summary>
-    /// Value Controllers
+    /// UsersController
     /// </summary>
-    public class ValuesController : ApiController
+    public class UsersController : ApiController
     {
         /// <summary>
         /// Doin some cool stuff
@@ -31,19 +31,5 @@ namespace WozWebAPI.Controllers
             return "value";
         }
 
-        // POST api/values
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT api/values/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/values/5
-        public void Delete(int id)
-        {
-        }
     }
 }
